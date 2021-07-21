@@ -1,5 +1,3 @@
-import React from "react";
-
 function About (props) {
     return (
         <aside>
@@ -7,6 +5,10 @@ function About (props) {
             <p>{props.about}</p>
         </aside>
     )
+}
+
+About.defaultProps = {
+    image : "https://via.placeholder.com/215"
 }
 
 export default About;
