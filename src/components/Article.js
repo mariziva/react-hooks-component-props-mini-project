@@ -1,5 +1,3 @@
-import React from "react";
-
 function Article (props) {
     const emoji = props.minutes < 30 ? "☕️".repeat(Math.ceil(props.minutes/5)) : "🍱".repeat(Math.ceil(props.minutes/10))
 
